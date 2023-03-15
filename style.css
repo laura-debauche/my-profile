@@ -1,0 +1,112 @@
+h1{
+	color: #6096B4;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn{
+	background-color: #BDCDD6;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#laura{
+	border-radius: 15px;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+}
+body{ 
+	background-color: #FFFBF5;
+	color: #A7727D;
+	font-family:'Lora', serif;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+h3{
+	color: #C3ACD0;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: #F0997D;
+	font-weight: bold;
+	font-size: 14px;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: #5B8FB9;
+}
+
+.img-circle{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+
+.container{
+	width: 700px;
+	margin: 50px auto;
+	padding: 30px;
+}
+
+@media (max-width:760px){
+	.container {
+		width: 600px;
+	
+	}
+}
+
+@media (max-width:500px){
+	.container {
+		width: 400px;
+
+	}
+}
+
+.card{
+	box-shadow: 0px 10px 30px lightgrey;
+	border: 1px black;
+	border-radius: 5px;
+	background: #FFF6EA;
+	padding: 30px;
+	margin: 30px auto;
+}
+
+#reseaux{
+	padding-left: 0;
+	list-style: none;
+	text-align: justify-all;
+}
+
+.etoile::before {
+	content: "☆";
+	color: #607EAA;
+	width: 30px;
+	display: inline-block;
+}
+
+
+#etudes{
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
